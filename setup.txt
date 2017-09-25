@@ -1,11 +1,11 @@
 #chrome
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list  
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -  
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
 #vim
-sudo apt-get install vim-gnome
+sudo apt-get install vim
 
 #gimp
 sudo apt-get install gimp
@@ -18,11 +18,6 @@ sudo apt-get install pspp
 
 #gcolor2
 sudo apt-get install gcolor2
-
-#UNetbootin
-sudo add-apt-repository ppa:gezakovacs/ppa
-sudo apt-get update
-sudo apt-get install unetbootin
 
 #Winrar
 sudo apt-get install winrar
