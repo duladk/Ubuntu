@@ -46,3 +46,8 @@ sudo apt-get install sublime-text
 #zsh
 sudo apt-get install zsh
 
+#virtualbox
+
+#vagrant
+
+#docker
