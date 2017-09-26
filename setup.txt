@@ -20,11 +20,11 @@ sudo apt-get install pspp
 sudo apt-get install gcolor2
 
 #Winrar
-sudo apt-get install winrar
+sudo apt-get install unrar
 
 #VLC
 sudo apt-get install vlc
-sudo apt-add-repository ppa:strukturag/libde256
+sudo apt-add-repository ppa:strukturag/libde265
 sudo apt-get update
 sudo apt-get install vlc-plugin-libde265
 
